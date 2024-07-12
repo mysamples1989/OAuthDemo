@@ -1,0 +1,26 @@
+1. client => gmail(contacts)
+
+
+2. gmail ui  username/password
+
+
+3. client consent screen(gmail.com)
+yes/no
+
+
+4.gmail => client(auth code)
+
+
+	auth code
+5. client => client web api
+
+
+	          auth code
+6. client webapi   =>    gmail server  ??? to get token
+
+			   token
+7. gmail server    =>     client web api
+
+
+		     requests contacts wth token
+8. client web api	      =>	gmail server	
